@@ -1,0 +1,26 @@
+/* Estilo adicional para os botões */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .buttons input[type="submit"],
+  .buttons a {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #0080ff, #00ccff);
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .buttons a:hover {
+    background-image: linear-gradient(to right, #00ccff, #00e6ff);
+  }
+  
